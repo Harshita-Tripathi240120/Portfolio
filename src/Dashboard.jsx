@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import profilePhoto from './assets/photo1.jpg';
+import profilePhoto from './assets/photo1.jpeg';
 import { Mail, Phone, Linkedin, Github, Menu, X, Code, Database, BrainCircuit, BarChart, Wrench, ShieldCheck, ChevronDown, Award, GraduationCap, School, Briefcase, Lightbulb, Star, MessageSquare, ExternalLink } from 'lucide-react';
 
 const App = () => {
@@ -148,13 +148,13 @@ const App = () => {
                         <img
                             src={profilePhoto}
                             alt="Harshita Tripathi"
-                            className="w-48 h-48 rounded-full object-cover border-2 border-sky-500 shadow-lg"
+                            className="w-48 h-49 rounded-full object-cover border-2 border-sky-500 shadow-lg"
                         />
                     </div>
                     <div className="text-center md:text-left">
-                        <p className="text-lg text-gray-300 leading-relaxed">
-                            I'm an enthusiastic 3rd-year Computer Science Engineering student and a full-stack developer. Experienced with React, Node.js, and data analytics. I've completed internships in Python and Web Development, along with professional training from Infosys (Power BI) and Grastech (Full Stack). I'm passionate about solving real-world problems, learning new technologies, and building scalable applications that make a difference.
-                        </p>
+                        <p className="text-lg text-gray-300 leading-relaxed"><b>
+                            Final-year Computer Science student and full-stack developer skilled in React, Node.js, Python, and data analytics. Completed internships in Web Development and Python, with professional training from Infosys (Power BI) and Grastech (Full Stack). Passionate about solving real-world problems by building scalable, efficient, and user-friendly applications. Eager to learn new technologies, take on challenging projects, and contribute to innovative teams that make an impact in the tech industry.
+                        </b></p>
                     </div>
                 </div>
             </div>
@@ -255,6 +255,27 @@ const App = () => {
             liveLink: '#',
             codeLink: 'https://github.com/Harshita-Tripathi240120/simple-linear-regression'
         },
+        {
+            title: 'Heart Health Insights Dashboard',
+            description: 'Built a Power BI dashboard to analyze heart-disease data with interactive insights.',
+            tech: ['Power BI', 'Data Analysis', 'DAX', 'Data Cleaning', 'Data Visualization', 'Dashboard Design'],
+            liveLink: '#',
+            codeLink: 'https://github.com/Harshita-Tripathi240120/heart-disease-powerbi'
+        },
+        {
+            title: 'AI Productivity Tracker With Screen Activity',
+            description: 'Built a tool that tracks screen activity and delivers AI-based productivity insights via dashboards.',
+            tech: ['React', 'Node.js', 'Python', 'MongoDB', 'Power BI', 'REST APIs'],
+            liveLink: '#',
+            codeLink: 'https://github.com/Harshita-Tripathi240120/ai-productivity-tracker'
+        },
+        {
+            title: 'K-Means Customer Segmentation',
+            description: 'Used K-Means to segment customers and uncover actionable behavior insights.',
+            tech: ['Python', 'K-Means', 'Machine Learning', 'Data Preprocessing', 'Data Visualization', 'Pandas', 'Scikit-learn'],
+            liveLink: '#',
+            codeLink: 'https://github.com/Harshita-Tripathi240120/kmeans-customer-segmentation'
+        },
     ];
 
     const ProjectsSection = () => (
@@ -338,7 +359,28 @@ const App = () => {
         },
     ];
 
-    const softSkills = ['Communication', 'Problem-Solving', 'Leadership', 'Time Management', 'Public Speaking', 'Critical Thinking'];
+    const softSkills = [
+  'Communication',
+  'Problem-Solving',
+  'Leadership',
+  'Time Management',
+  'Public Speaking',
+  'Critical Thinking',
+  'Teamwork',
+  'Adaptability',
+  'Creativity',
+  'Emotional Intelligence',
+  'Collaboration',
+  'Conflict Resolution',
+  'Decision Making',
+  'Work Ethic',
+  'Attention to Detail',
+  'Flexibility',
+  'Positive Attitude',
+  'Responsibility',
+  'Active Listening',
+  'Self-Motivation'
+];
 
     const EducationAndSoftSkillsSection = () => (
          <section className="bg-gray-900 py-16 md:py-24 w-screen relative left-1/2 -ml-[50vw]">
